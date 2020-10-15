@@ -1,0 +1,576 @@
+<?php
+$coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
+$coverage->setData(array (
+  '/var/www/html/ms/ms-new/app/Http/API/SwaggerTitle.php' => 
+  array (
+  ),
+  '/var/www/html/ms/ms-new/app/Http/API/v1/Controllers/CustomerController.php' => 
+  array (
+    20 => 
+    array (
+      0 => 'CustomerControllerTest::testAll with data set "shouldTrueToException"',
+      1 => 'CustomerControllerTest::testAll with data set "shouldTrue"',
+      2 => 'CustomerControllerTest::testAll with data set "shouldFalseToReturnFalseInService"',
+      3 => 'CustomerControllerTest::testGet with data set "shouldTrueToException"',
+      4 => 'CustomerControllerTest::testGet with data set "shouldTrue"',
+      5 => 'CustomerControllerTest::testGet with data set "shouldFalseToReturnFalseInService"',
+      6 => 'CustomerControllerTest::testGet with data set "shouldFalseToIdFalse"',
+      7 => 'CustomerControllerTest::testAdd with data set "shouldTrueToException"',
+      8 => 'CustomerControllerTest::testAdd with data set "shouldTrue"',
+      9 => 'CustomerControllerTest::testAdd with data set "shouldFalseToReturnFalseInService"',
+      10 => 'CustomerControllerTest::testUpdate with data set "shouldTrueToException"',
+      11 => 'CustomerControllerTest::testUpdate with data set "shouldTrue"',
+      12 => 'CustomerControllerTest::testUpdate with data set "shouldFalseToReturnFalseInService"',
+      13 => 'CustomerControllerTest::testUpdate with data set "shouldFalseToIdFalse"',
+      14 => 'CustomerControllerTest::testRemove with data set "shouldTrueToException"',
+      15 => 'CustomerControllerTest::testRemove with data set "shouldTrue"',
+      16 => 'CustomerControllerTest::testRemove with data set "shouldFalseToReturnFalseInService"',
+      17 => 'CustomerControllerTest::testRemove with data set "shouldFalseToIdFalse"',
+    ),
+    21 => 
+    array (
+      0 => 'CustomerControllerTest::testAll with data set "shouldTrueToException"',
+      1 => 'CustomerControllerTest::testAll with data set "shouldTrue"',
+      2 => 'CustomerControllerTest::testAll with data set "shouldFalseToReturnFalseInService"',
+      3 => 'CustomerControllerTest::testGet with data set "shouldTrueToException"',
+      4 => 'CustomerControllerTest::testGet with data set "shouldTrue"',
+      5 => 'CustomerControllerTest::testGet with data set "shouldFalseToReturnFalseInService"',
+      6 => 'CustomerControllerTest::testGet with data set "shouldFalseToIdFalse"',
+      7 => 'CustomerControllerTest::testAdd with data set "shouldTrueToException"',
+      8 => 'CustomerControllerTest::testAdd with data set "shouldTrue"',
+      9 => 'CustomerControllerTest::testAdd with data set "shouldFalseToReturnFalseInService"',
+      10 => 'CustomerControllerTest::testUpdate with data set "shouldTrueToException"',
+      11 => 'CustomerControllerTest::testUpdate with data set "shouldTrue"',
+      12 => 'CustomerControllerTest::testUpdate with data set "shouldFalseToReturnFalseInService"',
+      13 => 'CustomerControllerTest::testUpdate with data set "shouldFalseToIdFalse"',
+      14 => 'CustomerControllerTest::testRemove with data set "shouldTrueToException"',
+      15 => 'CustomerControllerTest::testRemove with data set "shouldTrue"',
+      16 => 'CustomerControllerTest::testRemove with data set "shouldFalseToReturnFalseInService"',
+      17 => 'CustomerControllerTest::testRemove with data set "shouldFalseToIdFalse"',
+    ),
+    67 => 
+    array (
+      0 => 'CustomerControllerTest::testAll with data set "shouldTrueToException"',
+      1 => 'CustomerControllerTest::testAll with data set "shouldTrue"',
+      2 => 'CustomerControllerTest::testAll with data set "shouldFalseToReturnFalseInService"',
+    ),
+    68 => 
+    array (
+      0 => 'CustomerControllerTest::testAll with data set "shouldTrueToException"',
+    ),
+    69 => 
+    array (
+      0 => 'CustomerControllerTest::testAll with data set "shouldTrueToException"',
+    ),
+    72 => 
+    array (
+      0 => 'CustomerControllerTest::testAll with data set "shouldTrue"',
+      1 => 'CustomerControllerTest::testAll with data set "shouldFalseToReturnFalseInService"',
+    ),
+    73 => 
+    array (
+      0 => 'CustomerControllerTest::testAll with data set "shouldTrue"',
+      1 => 'CustomerControllerTest::testAll with data set "shouldFalseToReturnFalseInService"',
+    ),
+    74 => 
+    array (
+      0 => 'CustomerControllerTest::testAll with data set "shouldTrue"',
+      1 => 'CustomerControllerTest::testAll with data set "shouldFalseToReturnFalseInService"',
+    ),
+    75 => 
+    array (
+      0 => 'CustomerControllerTest::testAll with data set "shouldTrue"',
+      1 => 'CustomerControllerTest::testAll with data set "shouldFalseToReturnFalseInService"',
+    ),
+    78 => 
+    array (
+      0 => 'CustomerControllerTest::testAll with data set "shouldTrue"',
+      1 => 'CustomerControllerTest::testAll with data set "shouldFalseToReturnFalseInService"',
+    ),
+    79 => NULL,
+    117 => 
+    array (
+      0 => 'CustomerControllerTest::testGet with data set "shouldTrueToException"',
+      1 => 'CustomerControllerTest::testGet with data set "shouldTrue"',
+      2 => 'CustomerControllerTest::testGet with data set "shouldFalseToReturnFalseInService"',
+      3 => 'CustomerControllerTest::testGet with data set "shouldFalseToIdFalse"',
+    ),
+    120 => 
+    array (
+      0 => 'CustomerControllerTest::testGet with data set "shouldTrueToException"',
+      1 => 'CustomerControllerTest::testGet with data set "shouldTrue"',
+      2 => 'CustomerControllerTest::testGet with data set "shouldFalseToReturnFalseInService"',
+      3 => 'CustomerControllerTest::testGet with data set "shouldFalseToIdFalse"',
+    ),
+    121 => 
+    array (
+      0 => 'CustomerControllerTest::testGet with data set "shouldTrueToException"',
+      1 => 'CustomerControllerTest::testGet with data set "shouldTrue"',
+    ),
+    122 => 
+    array (
+      0 => 'CustomerControllerTest::testGet with data set "shouldTrueToException"',
+      1 => 'CustomerControllerTest::testGet with data set "shouldTrue"',
+    ),
+    125 => 
+    array (
+      0 => 'CustomerControllerTest::testGet with data set "shouldFalseToReturnFalseInService"',
+      1 => 'CustomerControllerTest::testGet with data set "shouldFalseToIdFalse"',
+    ),
+    126 => 
+    array (
+      0 => 'CustomerControllerTest::testGet with data set "shouldFalseToReturnFalseInService"',
+      1 => 'CustomerControllerTest::testGet with data set "shouldFalseToIdFalse"',
+    ),
+    127 => 
+    array (
+      0 => 'CustomerControllerTest::testGet with data set "shouldFalseToReturnFalseInService"',
+      1 => 'CustomerControllerTest::testGet with data set "shouldFalseToIdFalse"',
+    ),
+    128 => 
+    array (
+      0 => 'CustomerControllerTest::testGet with data set "shouldFalseToReturnFalseInService"',
+      1 => 'CustomerControllerTest::testGet with data set "shouldFalseToIdFalse"',
+    ),
+    131 => 
+    array (
+      0 => 'CustomerControllerTest::testGet with data set "shouldFalseToReturnFalseInService"',
+      1 => 'CustomerControllerTest::testGet with data set "shouldFalseToIdFalse"',
+    ),
+    132 => NULL,
+    187 => 
+    array (
+      0 => 'CustomerControllerTest::testAdd with data set "shouldTrueToException"',
+      1 => 'CustomerControllerTest::testAdd with data set "shouldTrue"',
+      2 => 'CustomerControllerTest::testAdd with data set "shouldFalseToReturnFalseInService"',
+    ),
+    190 => 
+    array (
+      0 => 'CustomerControllerTest::testAdd with data set "shouldTrueToException"',
+      1 => 'CustomerControllerTest::testAdd with data set "shouldTrue"',
+      2 => 'CustomerControllerTest::testAdd with data set "shouldFalseToReturnFalseInService"',
+    ),
+    191 => 
+    array (
+      0 => 'CustomerControllerTest::testAdd with data set "shouldTrueToException"',
+    ),
+    192 => 
+    array (
+      0 => 'CustomerControllerTest::testAdd with data set "shouldTrueToException"',
+    ),
+    195 => 
+    array (
+      0 => 'CustomerControllerTest::testAdd with data set "shouldTrue"',
+      1 => 'CustomerControllerTest::testAdd with data set "shouldFalseToReturnFalseInService"',
+    ),
+    196 => NULL,
+    265 => 
+    array (
+      0 => 'CustomerControllerTest::testUpdate with data set "shouldTrueToException"',
+      1 => 'CustomerControllerTest::testUpdate with data set "shouldTrue"',
+      2 => 'CustomerControllerTest::testUpdate with data set "shouldFalseToReturnFalseInService"',
+      3 => 'CustomerControllerTest::testUpdate with data set "shouldFalseToIdFalse"',
+    ),
+    266 => 
+    array (
+      0 => 'CustomerControllerTest::testUpdate with data set "shouldTrueToException"',
+      1 => 'CustomerControllerTest::testUpdate with data set "shouldTrue"',
+      2 => 'CustomerControllerTest::testUpdate with data set "shouldFalseToReturnFalseInService"',
+      3 => 'CustomerControllerTest::testUpdate with data set "shouldFalseToIdFalse"',
+    ),
+    269 => 
+    array (
+      0 => 'CustomerControllerTest::testUpdate with data set "shouldTrueToException"',
+      1 => 'CustomerControllerTest::testUpdate with data set "shouldTrue"',
+      2 => 'CustomerControllerTest::testUpdate with data set "shouldFalseToReturnFalseInService"',
+      3 => 'CustomerControllerTest::testUpdate with data set "shouldFalseToIdFalse"',
+    ),
+    270 => 
+    array (
+      0 => 'CustomerControllerTest::testUpdate with data set "shouldTrueToException"',
+      1 => 'CustomerControllerTest::testUpdate with data set "shouldTrue"',
+    ),
+    271 => 
+    array (
+      0 => 'CustomerControllerTest::testUpdate with data set "shouldTrueToException"',
+      1 => 'CustomerControllerTest::testUpdate with data set "shouldTrue"',
+    ),
+    274 => 
+    array (
+      0 => 'CustomerControllerTest::testUpdate with data set "shouldFalseToReturnFalseInService"',
+      1 => 'CustomerControllerTest::testUpdate with data set "shouldFalseToIdFalse"',
+    ),
+    275 => NULL,
+    310 => 
+    array (
+      0 => 'CustomerControllerTest::testRemove with data set "shouldTrueToException"',
+      1 => 'CustomerControllerTest::testRemove with data set "shouldTrue"',
+      2 => 'CustomerControllerTest::testRemove with data set "shouldFalseToReturnFalseInService"',
+      3 => 'CustomerControllerTest::testRemove with data set "shouldFalseToIdFalse"',
+    ),
+    313 => 
+    array (
+      0 => 'CustomerControllerTest::testRemove with data set "shouldTrueToException"',
+      1 => 'CustomerControllerTest::testRemove with data set "shouldTrue"',
+      2 => 'CustomerControllerTest::testRemove with data set "shouldFalseToReturnFalseInService"',
+      3 => 'CustomerControllerTest::testRemove with data set "shouldFalseToIdFalse"',
+    ),
+    314 => 
+    array (
+      0 => 'CustomerControllerTest::testRemove with data set "shouldTrueToException"',
+      1 => 'CustomerControllerTest::testRemove with data set "shouldTrue"',
+    ),
+    315 => 
+    array (
+      0 => 'CustomerControllerTest::testRemove with data set "shouldTrueToException"',
+      1 => 'CustomerControllerTest::testRemove with data set "shouldTrue"',
+    ),
+    318 => 
+    array (
+      0 => 'CustomerControllerTest::testRemove with data set "shouldFalseToReturnFalseInService"',
+      1 => 'CustomerControllerTest::testRemove with data set "shouldFalseToIdFalse"',
+    ),
+    319 => NULL,
+  ),
+  '/var/www/html/ms/ms-new/app/Http/API/v1/Requests/CustomerRequest.php' => 
+  array (
+    20 => 
+    array (
+      0 => 'CustomerRequestTest::testValidateAdd with data set "shouldTrueToException"',
+      1 => 'CustomerRequestTest::testValidateAdd with data set "shouldTrueToValidation"',
+    ),
+    26 => 
+    array (
+      0 => 'CustomerRequestTest::testValidateAdd with data set "shouldTrueToException"',
+      1 => 'CustomerRequestTest::testValidateAdd with data set "shouldTrueToValidation"',
+    ),
+    29 => 
+    array (
+      0 => 'CustomerRequestTest::testValidateAdd with data set "shouldTrueToValidation"',
+    ),
+    31 => 
+    array (
+      0 => 'CustomerRequestTest::testValidateAdd with data set "shouldTrueToValidation"',
+    ),
+    32 => NULL,
+    45 => 
+    array (
+      0 => 'CustomerRequestTest::testValidateUpdate with data set "shouldTrueToException"',
+      1 => 'CustomerRequestTest::testValidateUpdate with data set "shouldTrueToValidation"',
+    ),
+    50 => 
+    array (
+      0 => 'CustomerRequestTest::testValidateUpdate with data set "shouldTrueToException"',
+      1 => 'CustomerRequestTest::testValidateUpdate with data set "shouldTrueToValidation"',
+    ),
+    53 => 
+    array (
+      0 => 'CustomerRequestTest::testValidateUpdate with data set "shouldTrueToValidation"',
+    ),
+    55 => 
+    array (
+      0 => 'CustomerRequestTest::testValidateUpdate with data set "shouldTrueToValidation"',
+    ),
+    56 => NULL,
+  ),
+  '/var/www/html/ms/ms-new/app/Http/API/v1/Resources/CustomerResource.php' => 
+  array (
+    11 => 
+    array (
+      0 => 'CustomerResourceTest::testConfigureNodeParser',
+    ),
+    12 => 
+    array (
+      0 => 'CustomerResourceTest::testConfigureNodeParser',
+    ),
+    15 => 
+    array (
+      0 => 'CustomerResourceTest::testConfigureNodeParser',
+    ),
+    16 => NULL,
+    21 => 
+    array (
+      0 => 'CustomerResourceTest::testConfigureMainParser',
+    ),
+    22 => 
+    array (
+      0 => 'CustomerResourceTest::testConfigureMainParser',
+    ),
+    23 => 
+    array (
+      0 => 'CustomerResourceTest::testConfigureMainParser',
+    ),
+    24 => 
+    array (
+      0 => 'CustomerResourceTest::testConfigureMainParser',
+    ),
+    25 => 
+    array (
+      0 => 'CustomerResourceTest::testConfigureMainParser',
+    ),
+    26 => 
+    array (
+      0 => 'CustomerResourceTest::testConfigureMainParser',
+    ),
+    27 => 
+    array (
+      0 => 'CustomerResourceTest::testConfigureMainParser',
+    ),
+    28 => 
+    array (
+      0 => 'CustomerResourceTest::testConfigureMainParser',
+    ),
+    31 => 
+    array (
+      0 => 'CustomerResourceTest::testConfigureMainParser',
+    ),
+    32 => NULL,
+  ),
+  '/var/www/html/ms/ms-new/app/Util/Enum/EnumConfiguration.php' => 
+  array (
+  ),
+  '/var/www/html/ms/ms-new/app/Services/CustomerService.php' => 
+  array (
+    23 => 
+    array (
+      0 => 'CustomerServiceTest::testRepository',
+      1 => 'CustomerServiceTest::testAdd',
+      2 => 'CustomerServiceTest::testUpdate',
+    ),
+    24 => 
+    array (
+      0 => 'CustomerServiceTest::testRepository',
+      1 => 'CustomerServiceTest::testAdd',
+      2 => 'CustomerServiceTest::testUpdate',
+    ),
+    33 => 
+    array (
+      0 => 'CustomerServiceTest::testRepository',
+    ),
+    34 => NULL,
+    46 => 
+    array (
+      0 => 'CustomerServiceTest::testAdd',
+    ),
+    47 => NULL,
+    60 => 
+    array (
+      0 => 'CustomerServiceTest::testUpdate',
+    ),
+    61 => NULL,
+  ),
+  '/var/www/html/ms/ms-new/app/Services/CustomerServiceInterface.php' => 
+  array (
+  ),
+  '/var/www/html/ms/ms-new/app/Console/Kernel.php' => 
+  array (
+  ),
+  '/var/www/html/ms/ms-new/app/Repositories/CustomerRepositoryInterface.php' => 
+  array (
+  ),
+  '/var/www/html/ms/ms-new/app/Repositories/CustomerRepository.php' => 
+  array (
+    18 => 
+    array (
+      0 => 'CustomerRepositoryTest::testModel',
+    ),
+    19 => NULL,
+  ),
+  '/var/www/html/ms/ms-new/app/Http/API/v1/Resources/CustomerCollection.php' => 
+  array (
+    23 => 
+    array (
+      0 => 'CustomerCollectionTest::testConfigureMainParser',
+    ),
+    24 => 
+    array (
+      0 => 'CustomerCollectionTest::testConfigureMainParser',
+    ),
+    26 => 
+    array (
+      0 => 'CustomerCollectionTest::testConfigureMainParser',
+    ),
+    27 => 
+    array (
+      0 => 'CustomerCollectionTest::testConfigureMainParser',
+    ),
+    28 => 
+    array (
+      0 => 'CustomerCollectionTest::testConfigureMainParser',
+    ),
+    31 => 
+    array (
+      0 => 'CustomerCollectionTest::testConfigureMainParser',
+    ),
+    32 => NULL,
+  ),
+));
+$coverage->setTests(array (
+  'UNCOVERED_FILES_FROM_WHITELIST' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+  'CustomerControllerTest::testAll with data set "shouldTrueToException"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CustomerControllerTest::testAll with data set "shouldTrue"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CustomerControllerTest::testAll with data set "shouldFalseToReturnFalseInService"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CustomerControllerTest::testGet with data set "shouldTrueToException"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CustomerControllerTest::testGet with data set "shouldTrue"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CustomerControllerTest::testGet with data set "shouldFalseToReturnFalseInService"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CustomerControllerTest::testGet with data set "shouldFalseToIdFalse"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CustomerControllerTest::testAdd with data set "shouldTrueToException"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CustomerControllerTest::testAdd with data set "shouldTrue"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CustomerControllerTest::testAdd with data set "shouldFalseToReturnFalseInService"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CustomerControllerTest::testUpdate with data set "shouldTrueToException"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CustomerControllerTest::testUpdate with data set "shouldTrue"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CustomerControllerTest::testUpdate with data set "shouldFalseToReturnFalseInService"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CustomerControllerTest::testUpdate with data set "shouldFalseToIdFalse"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CustomerControllerTest::testRemove with data set "shouldTrueToException"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CustomerControllerTest::testRemove with data set "shouldTrue"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CustomerControllerTest::testRemove with data set "shouldFalseToReturnFalseInService"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CustomerControllerTest::testRemove with data set "shouldFalseToIdFalse"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CustomerRequestTest::testValidateAdd with data set "shouldTrueToException"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CustomerRequestTest::testValidateAdd with data set "shouldTrueToValidation"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CustomerRequestTest::testValidateUpdate with data set "shouldTrueToException"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CustomerRequestTest::testValidateUpdate with data set "shouldTrueToValidation"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CustomerCollectionTest::testConfigureMainParser' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CustomerResourceTest::testConfigureMainParser' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CustomerResourceTest::testConfigureNodeParser' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CustomerRepositoryTest::testModel' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CustomerServiceTest::testRepository' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CustomerServiceTest::testAdd' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CustomerServiceTest::testUpdate' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+));
+
+$filter = $coverage->filter();
+$filter->setWhitelistedFiles(array (
+  '/var/www/html/ms/ms-new/app/Console/Kernel.php' => true,
+  '/var/www/html/ms/ms-new/app/Util/Enum/EnumConfiguration.php' => true,
+  '/var/www/html/ms/ms-new/app/Services/CustomerService.php' => true,
+  '/var/www/html/ms/ms-new/app/Services/CustomerServiceInterface.php' => true,
+  '/var/www/html/ms/ms-new/app/Repositories/CustomerRepositoryInterface.php' => true,
+  '/var/www/html/ms/ms-new/app/Repositories/CustomerRepository.php' => true,
+  '/var/www/html/ms/ms-new/app/Http/API/SwaggerTitle.php' => true,
+  '/var/www/html/ms/ms-new/app/Http/API/v1/Controllers/CustomerController.php' => true,
+  '/var/www/html/ms/ms-new/app/Http/API/v1/Requests/CustomerRequest.php' => true,
+  '/var/www/html/ms/ms-new/app/Http/API/v1/Resources/CustomerCollection.php' => true,
+  '/var/www/html/ms/ms-new/app/Http/API/v1/Resources/CustomerResource.php' => true,
+));
+
+return $coverage;
