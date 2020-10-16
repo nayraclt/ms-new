@@ -582,37 +582,119 @@ class CustomerController extends Controller
 
         return $this->response($updateCustomer);
     }
-    
+
 
     /**
      * @OA\Delete(
      *     path="/api/v1/customers/{id}",
      *     tags={"Cliente v1"},
-     *     summary="Remover um registro",
+     *     summary="Remover um cliente",
      *     operationId="customer_remove",
      *     @OA\Parameter(
      *         name="id",
      *         in="path",
-     *         description="ID do registro a ser removido",
+     *         description="ID do cliente a ser removido",
      *         required=true,
      *         @OA\Schema(
-     *             type="integer",
-     *             format="int64"
+     *             type="string"
      *         )
      *     ),
      *     @OA\Response(
      *         response=200,
-     *         description="Sucesso na operação"
+     *         description="Sucesso na operação",
+     *         @OA\MediaType(
+     *             mediaType="application/json",
+     *             @OA\Schema(
+     *                      type="object",
+     *                      @OA\Property(
+     *                          property="message",
+     *                          description="Mensagem retornada",
+     *                          type="string",
+     *                          example="Cliente removido com sucesso"
+     *                      ),
+     *                      @OA\Property(
+     *                         property="traceId",
+     *                         type="string",
+     *                         description="Id da transacao",
+     *                         type="string",
+     *                         example="7fa5fb8cad53cff1ff0149100d278ee3"
+     *                      )
+     *                  )
+     *         )
      *     ),
      *     @OA\Response(
      *         response=400,
-     *         description="Valor inválido na operação"
+     *         description="Valor inválido na operação",
+     *         @OA\MediaType(
+     *             mediaType="application/json",
+     *             @OA\Schema(
+     *                      type="object",
+     *                      @OA\Property(
+     *                          property="message",
+     *                          description="Mensagem retornada",
+     *                          type="string",
+     *                          example="Os dados fornecidos são inválidos"
+     *                      ),
+     *                      @OA\Property(
+     *                         property="traceId",
+     *                         type="string",
+     *                         description="Id da transacao",
+     *                         type="string",
+     *                         example="7fa5fb8cad53cff1ff0149100d278ee3"
+     *                      ),
+     *                      @OA\Property(
+     *                         property="trace",
+     *                         type="string",
+     *                         description="Trace do problema",
+     *                         type="string",
+     *                         example=""
+     *                      )
+     *             )
+     *         )
      *     ),
      *     @OA\Response(
      *         response=404,
-     *         description="Registro não encontrado"
+     *         description="Cliente não encontrado",
+     *         @OA\MediaType(
+     *             mediaType="application/json",
+     *             @OA\Schema(
+     *                      type="object",
+     *                      @OA\Property(
+     *                          property="message",
+     *                          description="Mensagem retornada",
+     *                          type="string",
+     *                          example="Cliente não encontrado"
+     *                      ),
+     *                      @OA\Property(
+     *                         property="traceId",
+     *                         type="string",
+     *                         description="Id da transacao",
+     *                         type="string",
+     *                         example="7fa5fb8cad53cff1ff0149100d278ee3"
+     *                      ),
+     *                      @OA\Property(
+     *                         property="description",
+     *                         type="string",
+     *                         description="Descrição do erro",
+     *                         type="string",
+     *                         example=""
+     *                      ),
+     *                      @OA\Property(
+     *                         property="trace",
+     *                         type="string",
+     *                         description="Trace do problema",
+     *                         type="string",
+     *                         example=""
+     *                      )
+     *             )
+     *         )
      *     )
      * )
+     *
+     * @param $id
+     * @param CustomerRequest $request
+     * @return \Illuminate\Http\Response|\Laravel\Lumen\Http\ResponseFactory
+     * @throws \Throwable
      */
     public function remove($id, CustomerRequest $request)
     {
